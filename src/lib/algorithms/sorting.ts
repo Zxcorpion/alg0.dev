@@ -51,7 +51,7 @@ Properties:
 Mainly used for educational purposes. For production, prefer Quick Sort or Merge Sort.`,
 
   generateSteps(locale = 'en') {
-    const arr = [38, 27, 43, 3, 9, 82, 10]
+    const arr = [5, 2, 9, 1, 7, 6, 3, 8, 4]]
     const steps: Step[] = []
     const sorted: number[] = []
     const n = arr.length
